@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+:root{
+    --lion_milk: #aee1f9;
+    --minty:#44b09e;
+    
+}
+
+html,body{
+    margin: 0;
+    background-color: #310e68;
+    
+   
+
+}
+body,button,input,select,textarea{
+    font-family: "Poppins",sans-serif;
+    color:white;
+}
+h1{
+    font-size: 44px;
+    
+}
+
+h2{
+    font-size: 24px;
+
+}
+h1,h2{
+    margin:0;
+    font-weight: 400;
+}
+
+button{
+    color:#0abcf9;
+    border: 0;
+    border-radius: 16px;
+    padding: 8px 35px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header{
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+
+}
+header .inicio{
+    padding: 0 100px;
+
+}
+header .inicio h1{
+    color: var(--lion_milk);
+}
+header .inicio button{
+    margin-top: 40px;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 0 50px;
+    position: sticky;
+    top: 0;
+}
+nav img{
+    height: 45px;
+}
+nav ul a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 30px;
+    margin: 0 35px;
+    color: var( --lion_milk);    
+}
+section{
+    height: 1500px;
+    
+}
